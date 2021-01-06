@@ -17,7 +17,6 @@ function binarySearch(userArray, userNumber, lowIndex, highIndex) {
 
     // Searching for number in array using if statements and recursion
     if (userArray[middleIndex] < userNumber) {
-      lowIndex = middleIndex + 1;
       return binarySearch(userArray, userNumber, middleIndex + 1, highIndex);
     } else if (userArray[middleIndex] > userNumber) {
       return binarySearch(userArray, userNumber, lowIndex, middleIndex - 1);
