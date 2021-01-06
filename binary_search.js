@@ -1,5 +1,5 @@
 // Created By: Jacob Bonner
-// Created On: December 2020
+// Created On: January 2021
 // This program generates 250 random numbers in an array and allows 
 //   the user to search the array for a number.
 
